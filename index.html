@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="ru" class="">
+
+<head>
+    <base href="/lander/notpixel-miniapp/index.html">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="" />
+
+    <link rel="icon" href="favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script src="assets/js/jquery-3.6.3.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script type="module" src="../../_next/static/index.js"></script>
+
+
+    <title>PIXEL</title>
+</head>
+
+<body>
+
+
+
+    <div id="loader" class="loader-container">
+        <div class="loader">
+            <svg xmlns="http://www.w3.org/2000/svg" width="121" height="121" viewBox="0 0 121 121" fill="none">
+					<rect
+						x="0.078125"
+						y="0.320801"
+						width="120"
+						height="120"
+						fill="#202A38"
+					/>
+					<rect x="41.0781" y="41.3208" width="38" height="38" fill="#171F2A" />
+				</svg>
+        </div>
+    </div>
+
+
+    <div class="main" id="content">
+
+        <div class="header">
+            <div class="container">
+
+                <div id="ton-connect" style="display:none; opacity: 0 !important; height: 0 !important; width: 0 !important;"></div>
+                <div class="header_items">
+                    <div class="header_item">
+                        <img src="./assets/img/header_burger.svg" alt="" class="header_item_burger">
+                    </div>
+                    <div class="header_item">
+                        <img src="./assets/img/header_button.svg" alt="" class="header_item_button">
+                    </div>
+                    <div class="header_item">
+                        <p class="header_item_tittle">Not Pixel</p>
+                    </div>
+                    <div class="header_item">
+                        <p class="header_item_balance">7000 <img src="./assets/img/header_icon.svg" alt=""></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="_layout_1cvcu_1">
+            <div class="_container_1cvcu_10">
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: 0ms;
+              transform: translate3d(145px, 158px, 16px);
+              background: rgb(0, 251, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -300ms;
+              transform: translate3d(19px, 149px, 20px);
+              background: rgb(255, 0, 85);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -600ms;
+              transform: translate3d(-175px, 182px, 7px);
+              background: rgb(0, 255, 174);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -900ms;
+              transform: translate3d(437px, 76px, 33px);
+              background: rgb(0, 238, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -1200ms;
+              transform: translate3d(67px, -169px, 23px);
+              background: rgb(0, 255, 94);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -1500ms;
+              transform: translate3d(441px, 147px, 9px);
+              background: rgb(255, 174, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -1800ms;
+              transform: translate3d(-89px, 119px, 33px);
+              background: rgb(255, 0, 94);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -2100ms;
+              transform: translate3d(489px, -14px, 24px);
+              background: rgb(255, 26, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -2400ms;
+              transform: translate3d(476px, -117px, 20px);
+              background: rgb(0, 85, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -2700ms;
+              transform: translate3d(179px, 119px, 7px);
+              background: rgb(213, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -3000ms;
+              transform: translate3d(-35px, -149px, 21px);
+              background: rgb(255, 0, 42);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -3300ms;
+              transform: translate3d(365px, 1px, 24px);
+              background: rgb(72, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -3600ms;
+              transform: translate3d(135px, 68px, 32px);
+              background: rgb(4, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -3900ms;
+              transform: translate3d(329px, -1px, 25px);
+              background: rgb(153, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -4200ms;
+              transform: translate3d(51px, -129px, 10px);
+              background: rgb(255, 0, 251);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -4500ms;
+              transform: translate3d(386px, 162px, 29px);
+              background: rgb(0, 178, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -4800ms;
+              transform: translate3d(82px, 122px, 26px);
+              background: rgb(255, 0, 34);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -5100ms;
+              transform: translate3d(352px, -139px, 26px);
+              background: rgb(0, 115, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -5400ms;
+              transform: translate3d(438px, -87px, 1px);
+              background: rgb(157, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -5700ms;
+              transform: translate3d(-21px, -199px, 11px);
+              background: rgb(77, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -6000ms;
+              transform: translate3d(-148px, -110px, 2px);
+              background: rgb(255, 0, 132);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -6300ms;
+              transform: translate3d(-64px, 158px, 30px);
+              background: rgb(255, 0, 119);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -6600ms;
+              transform: translate3d(282px, 28px, 8px);
+              background: rgb(0, 111, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -6900ms;
+              transform: translate3d(109px, -108px, 3px);
+              background: rgb(255, 132, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -7200ms;
+              transform: translate3d(285px, 14px, 6px);
+              background: rgb(255, 0, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -7500ms;
+              transform: translate3d(376px, -193px, 11px);
+              background: rgb(255, 0, 81);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -7800ms;
+              transform: translate3d(425px, -164px, 21px);
+              background: rgb(255, 0, 34);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -8100ms;
+              transform: translate3d(149px, 107px, 0px);
+              background: rgb(0, 255, 221);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -8400ms;
+              transform: translate3d(321px, 53px, 15px);
+              background: rgb(255, 115, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -8700ms;
+              transform: translate3d(-60px, -163px, 8px);
+              background: rgb(106, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -9000ms;
+              transform: translate3d(-68px, -188px, 23px);
+              background: rgb(221, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -9300ms;
+              transform: translate3d(472px, 120px, 12px);
+              background: rgb(255, 183, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -9600ms;
+              transform: translate3d(446px, 79px, 33px);
+              background: rgb(0, 247, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -9900ms;
+              transform: translate3d(-22px, 130px, 4px);
+              background: rgb(140, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -10200ms;
+              transform: translate3d(214px, 149px, 14px);
+              background: rgb(77, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -10500ms;
+              transform: translate3d(4px, -152px, 20px);
+              background: rgb(183, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -10800ms;
+              transform: translate3d(326px, 74px, 18px);
+              background: rgb(0, 255, 251);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -11100ms;
+              transform: translate3d(408px, -60px, 12px);
+              background: rgb(196, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -11400ms;
+              transform: translate3d(210px, 125px, 31px);
+              background: rgb(255, 174, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -11700ms;
+              transform: translate3d(42px, -93px, 13px);
+              background: rgb(153, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -12000ms;
+              transform: translate3d(55px, -83px, 18px);
+              background: rgb(94, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -12300ms;
+              transform: translate3d(219px, -12px, 16px);
+              background: rgb(255, 0, 42);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -12600ms;
+              transform: translate3d(342px, -150px, 14px);
+              background: rgb(0, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -12900ms;
+              transform: translate3d(28px, -194px, 12px);
+              background: rgb(0, 255, 204);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -13200ms;
+              transform: translate3d(-97px, -118px, 12px);
+              background: rgb(255, 0, 72);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -13500ms;
+              transform: translate3d(40px, 173px, 17px);
+              background: rgb(21, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -13800ms;
+              transform: translate3d(-134px, 105px, 9px);
+              background: rgb(255, 47, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -14100ms;
+              transform: translate3d(244px, -112px, 24px);
+              background: rgb(119, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -14400ms;
+              transform: translate3d(69px, -159px, 11px);
+              background: rgb(255, 51, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -14700ms;
+              transform: translate3d(343px, 188px, 3px);
+              background: rgb(136, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -15000ms;
+              transform: translate3d(-188px, -192px, 23px);
+              background: rgb(217, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -15300ms;
+              transform: translate3d(-12px, -197px, 17px);
+              background: rgb(38, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -15600ms;
+              transform: translate3d(433px, -50px, 27px);
+              background: rgb(0, 191, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -15900ms;
+              transform: translate3d(482px, -152px, 17px);
+              background: rgb(255, 0, 230);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -16200ms;
+              transform: translate3d(268px, 106px, 30px);
+              background: rgb(34, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -16500ms;
+              transform: translate3d(26px, 128px, 5px);
+              background: rgb(89, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -16800ms;
+              transform: translate3d(307px, 189px, 3px);
+              background: rgb(255, 0, 204);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -17100ms;
+              transform: translate3d(4px, 127px, 12px);
+              background: rgb(0, 255, 221);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -17400ms;
+              transform: translate3d(312px, -125px, 24px);
+              background: rgb(0, 94, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -17700ms;
+              transform: translate3d(19px, -45px, 1px);
+              background: rgb(0, 115, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -18000ms;
+              transform: translate3d(28px, 35px, 32px);
+              background: rgb(21, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -18300ms;
+              transform: translate3d(245px, -115px, 13px);
+              background: rgb(255, 59, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -18600ms;
+              transform: translate3d(280px, -45px, 20px);
+              background: rgb(183, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -18900ms;
+              transform: translate3d(131px, -170px, 17px);
+              background: rgb(255, 149, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -19200ms;
+              transform: translate3d(75px, -50px, 28px);
+              background: rgb(98, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -19500ms;
+              transform: translate3d(-38px, -100px, 9px);
+              background: rgb(0, 251, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -19800ms;
+              transform: translate3d(41px, -97px, 33px);
+              background: rgb(255, 0, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -20100ms;
+              transform: translate3d(-140px, -152px, 14px);
+              background: rgb(255, 89, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -20400ms;
+              transform: translate3d(176px, 51px, 1px);
+              background: rgb(0, 255, 238);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -20700ms;
+              transform: translate3d(210px, -13px, 28px);
+              background: rgb(255, 26, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -21000ms;
+              transform: translate3d(105px, 36px, 30px);
+              background: rgb(149, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -21300ms;
+              transform: translate3d(287px, 41px, 30px);
+              background: rgb(0, 255, 170);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -21600ms;
+              transform: translate3d(-92px, -13px, 11px);
+              background: rgb(0, 153, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -21900ms;
+              transform: translate3d(365px, -158px, 18px);
+              background: rgb(21, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -22200ms;
+              transform: translate3d(183px, 22px, 1px);
+              background: rgb(255, 26, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -22500ms;
+              transform: translate3d(-149px, 197px, 6px);
+              background: rgb(255, 162, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -22800ms;
+              transform: translate3d(484px, 173px, 13px);
+              background: rgb(255, 9, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -23100ms;
+              transform: translate3d(52px, -132px, 5px);
+              background: rgb(0, 255, 9);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -23400ms;
+              transform: translate3d(426px, 51px, 30px);
+              background: rgb(0, 255, 26);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -23700ms;
+              transform: translate3d(417px, -123px, 28px);
+              background: rgb(0, 255, 195);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -24000ms;
+              transform: translate3d(60px, 25px, 6px);
+              background: rgb(255, 0, 64);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -24300ms;
+              transform: translate3d(225px, -77px, 24px);
+              background: rgb(0, 72, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -24600ms;
+              transform: translate3d(395px, 60px, 5px);
+              background: rgb(255, 0, 98);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -24900ms;
+              transform: translate3d(450px, -7px, 11px);
+              background: rgb(0, 174, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -25200ms;
+              transform: translate3d(10px, -161px, 7px);
+              background: rgb(0, 34, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -25500ms;
+              transform: translate3d(159px, 96px, 16px);
+              background: rgb(255, 221, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -25800ms;
+              transform: translate3d(249px, 109px, 21px);
+              background: rgb(247, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -26100ms;
+              transform: translate3d(-47px, 198px, 11px);
+              background: rgb(0, 255, 170);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -26400ms;
+              transform: translate3d(427px, -132px, 5px);
+              background: rgb(149, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -26700ms;
+              transform: translate3d(454px, -46px, 17px);
+              background: rgb(55, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -27000ms;
+              transform: translate3d(324px, -169px, 9px);
+              background: rgb(255, 0, 111);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -27300ms;
+              transform: translate3d(292px, -31px, 19px);
+              background: rgb(0, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -27600ms;
+              transform: translate3d(40px, -154px, 29px);
+              background: rgb(255, 0, 34);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -27900ms;
+              transform: translate3d(-7px, -2px, 20px);
+              background: rgb(255, 195, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -28200ms;
+              transform: translate3d(-142px, -117px, 21px);
+              background: rgb(0, 26, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -28500ms;
+              transform: translate3d(166px, 57px, 28px);
+              background: rgb(255, 0, 38);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -28800ms;
+              transform: translate3d(410px, 124px, 18px);
+              background: rgb(0, 255, 111);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -29100ms;
+              transform: translate3d(4px, -192px, 3px);
+              background: rgb(255, 0, 128);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -29400ms;
+              transform: translate3d(212px, -170px, 3px);
+              background: rgb(0, 208, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -29700ms;
+              transform: translate3d(65px, 170px, 6px);
+              background: rgb(255, 0, 59);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -30000ms;
+              transform: translate3d(419px, -69px, 31px);
+              background: rgb(0, 255, 217);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -30300ms;
+              transform: translate3d(67px, 22px, 16px);
+              background: rgb(85, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -30600ms;
+              transform: translate3d(-13px, -44px, 17px);
+              background: rgb(255, 51, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -30900ms;
+              transform: translate3d(-34px, 128px, 32px);
+              background: rgb(119, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -31200ms;
+              transform: translate3d(155px, -68px, 23px);
+              background: rgb(145, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -31500ms;
+              transform: translate3d(133px, -31px, 33px);
+              background: rgb(255, 0, 13);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -31800ms;
+              transform: translate3d(243px, -41px, 8px);
+              background: rgb(255, 251, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -32100ms;
+              transform: translate3d(-159px, -8px, 33px);
+              background: rgb(0, 255, 98);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -32400ms;
+              transform: translate3d(237px, -60px, 5px);
+              background: rgb(255, 0, 119);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -32700ms;
+              transform: translate3d(177px, 81px, 29px);
+              background: rgb(255, 0, 217);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -33000ms;
+              transform: translate3d(376px, -58px, 14px);
+              background: rgb(0, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -33300ms;
+              transform: translate3d(149px, 64px, 25px);
+              background: rgb(255, 0, 111);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -33600ms;
+              transform: translate3d(43px, 189px, 23px);
+              background: rgb(0, 255, 153);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -33900ms;
+              transform: translate3d(-80px, 113px, 21px);
+              background: rgb(0, 204, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -34200ms;
+              transform: translate3d(57px, 9px, 8px);
+              background: rgb(255, 0, 13);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -34500ms;
+              transform: translate3d(104px, -165px, 24px);
+              background: rgb(0, 255, 47);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -34800ms;
+              transform: translate3d(100px, 155px, 12px);
+              background: rgb(166, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -35100ms;
+              transform: translate3d(177px, 167px, 17px);
+              background: rgb(34, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -35400ms;
+              transform: translate3d(-156px, -29px, 11px);
+              background: rgb(9, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -35700ms;
+              transform: translate3d(396px, -152px, 7px);
+              background: rgb(255, 170, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -36000ms;
+              transform: translate3d(359px, 194px, 2px);
+              background: rgb(145, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -36300ms;
+              transform: translate3d(468px, -104px, 20px);
+              background: rgb(170, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -36600ms;
+              transform: translate3d(-30px, -181px, 6px);
+              background: rgb(255, 0, 59);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -36900ms;
+              transform: translate3d(173px, -71px, 1px);
+              background: rgb(255, 0, 187);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -37200ms;
+              transform: translate3d(474px, -168px, 1px);
+              background: rgb(251, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -37500ms;
+              transform: translate3d(451px, -98px, 25px);
+              background: rgb(94, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -37800ms;
+              transform: translate3d(-13px, 0px, 11px);
+              background: rgb(0, 255, 60);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -38100ms;
+              transform: translate3d(374px, -10px, 2px);
+              background: rgb(255, 0, 208);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -38400ms;
+              transform: translate3d(313px, 183px, 30px);
+              background: rgb(255, 0, 26);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -38700ms;
+              transform: translate3d(179px, 12px, 31px);
+              background: rgb(30, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -39000ms;
+              transform: translate3d(38px, 107px, 3px);
+              background: rgb(255, 0, 30);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -39300ms;
+              transform: translate3d(435px, 0px, 32px);
+              background: rgb(255, 0, 89);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -39600ms;
+              transform: translate3d(207px, 34px, 28px);
+              background: rgb(0, 255, 238);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -39900ms;
+              transform: translate3d(-161px, 128px, 28px);
+              background: rgb(208, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -40200ms;
+              transform: translate3d(192px, -48px, 18px);
+              background: rgb(0, 9, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -40500ms;
+              transform: translate3d(348px, -43px, 14px);
+              background: rgb(17, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -40800ms;
+              transform: translate3d(477px, -26px, 25px);
+              background: rgb(255, 0, 251);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -41100ms;
+              transform: translate3d(270px, -110px, 24px);
+              background: rgb(255, 132, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -41400ms;
+              transform: translate3d(9px, -103px, 22px);
+              background: rgb(255, 153, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -41700ms;
+              transform: translate3d(274px, -134px, 13px);
+              background: rgb(255, 251, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -42000ms;
+              transform: translate3d(262px, -70px, 29px);
+              background: rgb(0, 255, 217);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -42300ms;
+              transform: translate3d(231px, -186px, 11px);
+              background: rgb(255, 111, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -42600ms;
+              transform: translate3d(3px, -37px, 33px);
+              background: rgb(115, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -42900ms;
+              transform: translate3d(73px, 86px, 12px);
+              background: rgb(0, 217, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -43200ms;
+              transform: translate3d(4px, -122px, 3px);
+              background: rgb(34, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -43500ms;
+              transform: translate3d(110px, 20px, 22px);
+              background: rgb(0, 178, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -43800ms;
+              transform: translate3d(406px, -74px, 13px);
+              background: rgb(85, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -44100ms;
+              transform: translate3d(455px, 159px, 14px);
+              background: rgb(9, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -44400ms;
+              transform: translate3d(451px, 175px, 30px);
+              background: rgb(255, 0, 26);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -44700ms;
+              transform: translate3d(243px, 124px, 3px);
+              background: rgb(55, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -45000ms;
+              transform: translate3d(-25px, -88px, 0px);
+              background: rgb(0, 17, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -45300ms;
+              transform: translate3d(-195px, 144px, 19px);
+              background: rgb(0, 255, 234);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -45600ms;
+              transform: translate3d(271px, 174px, 30px);
+              background: rgb(102, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -45900ms;
+              transform: translate3d(-157px, 0px, 31px);
+              background: rgb(0, 255, 64);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -46200ms;
+              transform: translate3d(-196px, 200px, 33px);
+              background: rgb(0, 255, 132);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -46500ms;
+              transform: translate3d(68px, 84px, 11px);
+              background: rgb(0, 191, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -46800ms;
+              transform: translate3d(-78px, 109px, 24px);
+              background: rgb(0, 51, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -47100ms;
+              transform: translate3d(19px, 123px, 5px);
+              background: rgb(255, 0, 85);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -47400ms;
+              transform: translate3d(267px, 105px, 20px);
+              background: rgb(255, 0, 174);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -47700ms;
+              transform: translate3d(68px, 4px, 29px);
+              background: rgb(128, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -48000ms;
+              transform: translate3d(402px, 128px, 10px);
+              background: rgb(34, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -48300ms;
+              transform: translate3d(435px, -160px, 22px);
+              background: rgb(0, 255, 132);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -48600ms;
+              transform: translate3d(220px, -44px, 5px);
+              background: rgb(85, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -48900ms;
+              transform: translate3d(10px, -7px, 15px);
+              background: rgb(234, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -49200ms;
+              transform: translate3d(46px, -44px, 9px);
+              background: rgb(255, 17, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -49500ms;
+              transform: translate3d(-145px, -100px, 13px);
+              background: rgb(0, 255, 247);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -49800ms;
+              transform: translate3d(168px, 113px, 2px);
+              background: rgb(0, 255, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -50100ms;
+              transform: translate3d(-8px, -188px, 19px);
+              background: rgb(255, 0, 208);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -50400ms;
+              transform: translate3d(201px, 174px, 24px);
+              background: rgb(0, 255, 195);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -50700ms;
+              transform: translate3d(-72px, -186px, 6px);
+              background: rgb(0, 255, 89);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -51000ms;
+              transform: translate3d(-152px, 141px, 6px);
+              background: rgb(162, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -51300ms;
+              transform: translate3d(263px, 85px, 2px);
+              background: rgb(183, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -51600ms;
+              transform: translate3d(221px, -21px, 2px);
+              background: rgb(0, 98, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -51900ms;
+              transform: translate3d(205px, 126px, 26px);
+              background: rgb(0, 72, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -52200ms;
+              transform: translate3d(74px, -168px, 5px);
+              background: rgb(255, 0, 162);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -52500ms;
+              transform: translate3d(198px, -100px, 6px);
+              background: rgb(255, 174, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -52800ms;
+              transform: translate3d(-69px, -111px, 3px);
+              background: rgb(0, 255, 157);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -53100ms;
+              transform: translate3d(-192px, 34px, 20px);
+              background: rgb(0, 178, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -53400ms;
+              transform: translate3d(424px, 79px, 24px);
+              background: rgb(0, 111, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 1px;
+              height: 1px;
+              animation-delay: -53700ms;
+              transform: translate3d(153px, -148px, 5px);
+              background: rgb(0, 102, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -54000ms;
+              transform: translate3d(410px, 33px, 24px);
+              background: rgb(255, 247, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -54300ms;
+              transform: translate3d(204px, 65px, 21px);
+              background: rgb(0, 170, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -54600ms;
+              transform: translate3d(-19px, 197px, 28px);
+              background: rgb(255, 0, 153);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -54900ms;
+              transform: translate3d(-140px, 31px, 6px);
+              background: rgb(0, 255, 55);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -55200ms;
+              transform: translate3d(-8px, -194px, 7px);
+              background: rgb(132, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 3px;
+              height: 3px;
+              animation-delay: -55500ms;
+              transform: translate3d(-10px, 79px, 26px);
+              background: rgb(255, 0, 77);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -55800ms;
+              transform: translate3d(366px, -28px, 31px);
+              background: rgb(191, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -56100ms;
+              transform: translate3d(144px, -59px, 24px);
+              background: rgb(0, 47, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 7px;
+              height: 7px;
+              animation-delay: -56400ms;
+              transform: translate3d(-7px, -168px, 32px);
+              background: rgb(255, 0, 183);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -56700ms;
+              transform: translate3d(452px, -34px, 6px);
+              background: rgb(170, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -57000ms;
+              transform: translate3d(-172px, 1px, 28px);
+              background: rgb(0, 255, 153);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 8px;
+              height: 8px;
+              animation-delay: -57300ms;
+              transform: translate3d(294px, -178px, 25px);
+              background: rgb(55, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -57600ms;
+              transform: translate3d(-4px, -13px, 27px);
+              background: rgb(145, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -57900ms;
+              transform: translate3d(485px, -49px, 9px);
+              background: rgb(200, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -58200ms;
+              transform: translate3d(-142px, -184px, 19px);
+              background: rgb(255, 0, 136);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -58500ms;
+              transform: translate3d(-185px, 31px, 26px);
+              background: rgb(111, 255, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 6px;
+              height: 6px;
+              animation-delay: -58800ms;
+              transform: translate3d(-27px, -64px, 5px);
+              background: rgb(255, 13, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 4px;
+              height: 4px;
+              animation-delay: -59100ms;
+              transform: translate3d(94px, -37px, 26px);
+              background: rgb(166, 0, 255);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 5px;
+              height: 5px;
+              animation-delay: -59400ms;
+              transform: translate3d(28px, -23px, 17px);
+              background: rgb(255, 115, 0);
+            "></div>
+                <div class="_bubble_1cvcu_16" style="
+              width: 2px;
+              height: 2px;
+              animation-delay: -59700ms;
+              transform: translate3d(200px, -168px, 8px);
+              background: rgb(0, 255, 234);
+            "></div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="intro">
+            <div class="container">
+                <p class="intro_tittle">Your balance</p>
+
+                <img src="./assets/img/intro_logo.png" alt="" class="intro_logo">
+
+                <p class="intro_balance">7000 PX</p>
+
+
+                <div class="intro_buttons">
+                    <button onclick="openButton()" class="intro_conversion">Balance conversion <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+      <path d="M11.1872 7.92432C11.3122 8.0389 11.3773 8.18213 11.3825 8.354C11.3877 8.52588 11.3434 8.67432 11.2497 8.79932L11.1872 8.86182L7.18718 12.8618C7.06218 12.9972 6.90593 13.0649 6.71843 13.0649C6.53093 13.0649 6.37468 12.9972 6.24968 12.8618C6.12468 12.7472 6.05957 12.604 6.05437 12.4321C6.04916 12.2603 6.09343 12.1118 6.18718 11.9868L6.24968 11.9243L9.78093 8.39307L6.24968 4.86182C6.12468 4.74723 6.05957 4.604 6.05437 4.43213C6.04916 4.26025 6.09343 4.11182 6.18718 3.98682L6.24968 3.92432C6.36426 3.79932 6.50749 3.73421 6.67937 3.729C6.85124 3.7238 6.99968 3.76807 7.12468 3.86182L7.18718 3.92432L11.1872 7.92432Z" fill="#4DB2FF"/>
+    </svg></button>
+
+
+                    <button onclick="openButton()" class="intro_wallet_add">Airdrop wallet • <span>Add</span></button>
+
+                    <button onclick="openButton()" class="intro_claim">Claim Reward <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.771484 5.00871C0.771484 3.2555 0.771484 2.3789 1.12027 1.70925C1.42707 1.12022 1.91661 0.641324 2.51873 0.341201C3.20325 -2.55165e-07 4.09934 0 5.89153 0H10.0516C11.8437 0 12.7398 -2.55165e-07 13.4244 0.341201C14.0265 0.641324 14.516 1.12022 14.8229 1.70925C14.8844 1.82751 14.9352 1.95223 14.9769 2.08709H12.7715C11.7793 2.08709 11.2832 2.08709 10.8784 2.20333C9.92066 2.47845 9.17157 3.21122 8.89033 4.14821C8.77149 4.54409 8.77149 5.02944 8.77149 6.0001C8.77149 6.97083 8.77149 7.4562 8.89033 7.85204C9.17157 8.7891 9.92066 9.5218 10.8784 9.79693C11.2832 9.91318 11.7793 9.91318 12.7715 9.91318H14.9768C14.9351 10.048 14.8844 10.1726 14.8229 10.2908C14.516 10.8798 14.0265 11.3587 13.4244 11.6589C12.7398 12 11.8437 12 10.0516 12H5.89153C4.09935 12 3.20325 12 2.51873 11.6589C1.91661 11.3587 1.42707 10.8798 1.12027 10.2908C0.771484 9.62112 0.771484 8.74457 0.771484 6.99129V5.00871ZM9.83809 6.00029C9.83809 5.02681 9.83809 4.54005 10.023 4.16453C10.2064 3.79181 10.5139 3.49108 10.8948 3.31158C11.2787 3.13074 11.7762 3.13074 12.7714 3.13074H13.8381C14.8333 3.13074 15.3309 3.13074 15.7147 3.31158C16.0957 3.49108 16.4031 3.79181 16.5866 4.16453C16.7715 4.54005 16.7715 5.02681 16.7715 6.00029C16.7715 6.97388 16.7715 7.46057 16.5866 7.83616C16.4031 8.20879 16.0957 8.5096 15.7147 8.68902C15.3309 8.86986 14.8333 8.86986 13.8381 8.86986H12.7714C11.7762 8.86986 11.2787 8.86986 10.8948 8.68902C10.5139 8.5096 10.2064 8.20879 10.023 7.83616C9.83809 7.46057 9.83809 6.97388 9.83809 6.00029ZM13.3047 6.0002C13.3047 6.57651 12.8272 7.0437 12.238 7.0437C11.6489 7.0437 11.1714 6.57651 11.1714 6.0002C11.1714 5.4239 11.6489 4.95671 12.238 4.95671C12.8272 4.95671 13.3047 5.4239 13.3047 6.0002Z" fill="white"/>
+</svg></button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="bottom">
+            <div class="container">
+                <p class="bottom_tittle">PX Airdrop criteria</p>
+
+                <div class="bottom_items">
+                    <div class="bottom_item">
+                        <p class="bottom_item_tittle">Your balance 100+ PX</p>
+                        <svg class="bottom_item_icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+          <path d="M2.95053 6.4896C2.83768 6.38543 2.7053 6.33334 2.55339 6.33334C2.40148 6.33334 2.2691 6.38543 2.15626 6.4896C2.05209 6.60245 2 6.73482 2 6.88673C2 7.03864 2.05209 7.17102 2.15626 7.28387L4.94272 10.0573C5.04688 10.1701 5.17709 10.2266 5.33334 10.2266C5.4896 10.2266 5.6198 10.1701 5.72397 10.0573L11.8438 3.95053C11.9479 3.83768 12 3.7053 12 3.55339C12 3.40148 11.9479 3.26911 11.8438 3.15626C11.731 3.05209 11.5986 3 11.4467 3C11.2948 3 11.1624 3.05209 11.0495 3.15626L5.33334 8.88546L2.95053 6.4896Z" fill="#5AEC8C"/>
+        </svg>
+                    </div>
+                    <div class="bottom_item">
+                        <p class="bottom_item_tittle">TON Captcha</p>
+                        <svg class="bottom_item_icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+          <path d="M2.95053 6.4896C2.83768 6.38543 2.7053 6.33334 2.55339 6.33334C2.40148 6.33334 2.2691 6.38543 2.15626 6.4896C2.05209 6.60245 2 6.73482 2 6.88673C2 7.03864 2.05209 7.17102 2.15626 7.28387L4.94272 10.0573C5.04688 10.1701 5.17709 10.2266 5.33334 10.2266C5.4896 10.2266 5.6198 10.1701 5.72397 10.0573L11.8438 3.95053C11.9479 3.83768 12 3.7053 12 3.55339C12 3.40148 11.9479 3.26911 11.8438 3.15626C11.731 3.05209 11.5986 3 11.4467 3C11.2948 3 11.1624 3.05209 11.0495 3.15626L5.33334 8.88546L2.95053 6.4896Z" fill="#5AEC8C"/>
+        </svg>
+                    </div>
+                    <div class="bottom_item">
+                        <p class="bottom_item_tittle">Top 100 user</p>
+                        <svg class="bottom_item_icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+          <path d="M2.95053 6.4896C2.83768 6.38543 2.7053 6.33334 2.55339 6.33334C2.40148 6.33334 2.2691 6.38543 2.15626 6.4896C2.05209 6.60245 2 6.73482 2 6.88673C2 7.03864 2.05209 7.17102 2.15626 7.28387L4.94272 10.0573C5.04688 10.1701 5.17709 10.2266 5.33334 10.2266C5.4896 10.2266 5.6198 10.1701 5.72397 10.0573L11.8438 3.95053C11.9479 3.83768 12 3.7053 12 3.55339C12 3.40148 11.9479 3.26911 11.8438 3.15626C11.731 3.05209 11.5986 3 11.4467 3C11.2948 3 11.1624 3.05209 11.0495 3.15626L5.33334 8.88546L2.95053 6.4896Z" fill="#5AEC8C"/>
+        </svg>
+                    </div>
+                </div>
+
+
+
+
+                <button onclick="openButton()" class="bottom_button">Claim Reward <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.74292 5.61565C0.74292 3.86244 0.74292 2.98583 1.0917 2.31618C1.39851 1.72715 1.88805 1.24826 2.49017 0.948135C3.17469 0.606933 4.07078 0.606934 5.86296 0.606934H10.023C11.8151 0.606934 12.7113 0.606933 13.3958 0.948135C13.9979 1.24826 14.4875 1.72715 14.7943 2.31618C14.8558 2.43444 14.9066 2.55916 14.9483 2.69402H12.743C11.7508 2.69402 11.2546 2.69402 10.8499 2.81026C9.89209 3.08539 9.143 3.81815 8.86176 4.75515C8.74293 5.15102 8.74293 5.63638 8.74293 6.60704C8.74293 7.57777 8.74293 8.06313 8.86176 8.45898C9.143 9.39603 9.89209 10.1287 10.8499 10.4039C11.2546 10.5201 11.7508 10.5201 12.743 10.5201H14.9482C14.9065 10.6549 14.8558 10.7795 14.7943 10.8977C14.4875 11.4868 13.9979 11.9656 13.3958 12.2658C12.7113 12.6069 11.8151 12.6069 10.023 12.6069H5.86296C4.07079 12.6069 3.17469 12.6069 2.49017 12.2658C1.88805 11.9656 1.39851 11.4868 1.0917 10.8977C0.74292 10.2281 0.74292 9.35151 0.74292 7.59822V5.61565ZM9.80953 6.60723C9.80953 5.63374 9.80953 5.14699 9.9944 4.77146C10.1778 4.39874 10.4853 4.09801 10.8662 3.91852C11.2501 3.73768 11.7477 3.73768 12.7429 3.73768H13.8096C14.8047 3.73768 15.3023 3.73768 15.6861 3.91852C16.0672 4.09801 16.3745 4.39874 16.5581 4.77146C16.7429 5.14699 16.7429 5.63374 16.7429 6.60723C16.7429 7.58081 16.7429 8.06751 16.5581 8.44309C16.3745 8.81572 16.0672 9.11653 15.6861 9.29595C15.3023 9.4768 14.8047 9.4768 13.8096 9.4768H12.7429C11.7477 9.4768 11.2501 9.4768 10.8662 9.29595C10.4853 9.11653 10.1778 8.81572 9.9944 8.44309C9.80953 8.06751 9.80953 7.58081 9.80953 6.60723ZM13.2762 6.60713C13.2762 7.18344 12.7986 7.65064 12.2095 7.65064C11.6204 7.65064 11.1429 7.18344 11.1429 6.60713C11.1429 6.03083 11.6204 5.56365 12.2095 5.56365C12.7986 5.56365 13.2762 6.03083 13.2762 6.60713Z" fill="white"/>
+    </svg></button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
